@@ -5,6 +5,7 @@ SOUNDSCORE: PROBLEM
   •	With the amount of music available, it is difficult to discover new music that a listener may enjoy based on their previous listening history
   •	There are currently multiple streaming platforms, but no central location for a listener’s preferences to be housed
   •	Although listeners may have preferences for artists, songs, albums, genres, etc., there is no way to access what their preferences are throughout their usage of different streaming services
+
 SOUNDSCORE: OBJECTIVES
   •	Provide infrastructure to
     o	Register new artists
@@ -14,6 +15,7 @@ SOUNDSCORE: OBJECTIVES
     o	Track rankings of releases given by users
   •	Provide infrastructure for music venues to advertise upcoming shows
   •	Enable cloud-based storage and access for seamless cross-device synchronization.
+
 SOUNDSCORE: FUNCTIONAL REQUIREMENTS
   •	Users must be able to access rankings/releases prior to registration
   •	Users must be able to register for an account
@@ -27,6 +29,7 @@ SOUNDSCORE: FUNCTIONAL REQUIREMENTS
   •	Artists must be able to advertise upcoming live shows
   •	The system must integrate embedded music playback to Spotify, Apple Music, Soundcloud, Youtube 
   •	System administrators must be able to perform updates to the system
+
 SOUNDSCORE: NON-FUNCTIONAL REQUIREMENTS
   •	Users updating their rankings should not result in a crash 99.9 % of the time
   •	Artists must be able to register new releases without modifications to pre-existing releases
@@ -35,10 +38,12 @@ SOUNDSCORE: NON-FUNCTIONAL REQUIREMENTS
   •	System must have 99.9% uptime, excluding scheduled maintenance and upgrade periods not exceeding 4 hours per month
   •	System must load search results within 5 seconds
   •	System must comply with the law
+
 SOUNDSCORE: TARGET ENVIRONMENT
   •	Users must be able to access the system in any web browser
   •	System must run on any Linux, MacOS, Windows operating systems
   •	The system must implement cloud-based services(AWS, Google Cloud, or Azure)
+
 SOUNDSCORE: ACTORS
   •	Listeners
   •	Artists
@@ -47,6 +52,7 @@ SOUNDSCORE: ACTORS
   •	Unregistered user
   •	Third party platforms (Spoky, Apple…)
   •	Cloud service provider
+
 SOUNDSCORE: USE CASES
   •	RegisterAccount (Unregistered user)
   •	DeleteAccount (Listener, artist, admin, venue)
